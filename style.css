@@ -1,113 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Rubik:wght@400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
 
 .container {
+    margin: auto;
     width: 100%;
-    height: 100vh;
-    
-    
+    height: 85vh;
 
 
 }
 
-h1 {
-    font-size: 80px;
+.container h1 {
+    font-family: 'Rubik';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 70px;
+    position: relative;
+    top: 10px;
 }
 
-p {
-    font-size: 30px;
+.container p {
+
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
     text-align: center;
+    margin-top: 20px;
     color: #95A1BB;
 
-
 }
 
-.cards {
-    width: 67%;
-    height: 60vh;
-    
-    margin: auto;
-    margin-top: 50px;
+main {
+
+    width: 100%;
+    height: 100%;
     display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    padding: 30px 0;
 
 }
 
 .card {
-    width: 30%;
-    height: 57vh;
-    
-    margin: auto;
-    border: 2px solid rgb(212, 209, 198);
-    padding: 15px;
-
-
-}
-
-h2{
-    font-size: 60px;
-    
-}
-
-h3{
-    font-size: 40px;
-    color: #95A1BB;
-    margin-top: 10px;
-}
-
-h4{
-    font-size: 40px;
-    color: blueviolet;
-    margin-top: 10px;
-}
-
-hr{
-    width: 350px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.jasur{
-    width: 100%;
-    height: auto;
-    
+    width: 300px;
+    height: 166px;
+    top: 193px;
+    position: relative;
+    left: 200px;
+    top: 5px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+
 }
 
-h5{
-    font-size: 22px;
+.card img {
+    width: 220px;
+    height: 160px;
+
+}
+
+.card span {
+    width: 300px;
+    height: 88px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.abb {
+    display: flex;
+    gap: 20px;
+}
+
+.abb img {
+    width: 48px;
+    height: 48px;
+}
+
+.jass {
+    text-align: center;
+}
+
+.jass p {
+
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-top: 5px;
     color: #95A1BB;
-    padding: 13px;
+
 }
 
-h6{
-    font-size: 22px;
-    color: #95A1BB;
-    padding: 13px;
-}
+.jass h6 {
+    margin-top: 15px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
 
-button{
-    font-size: 30px;
-    width: 100%;
-    height: 6vh;
-    border-radius: 5px;
-    color: blueviolet;
-    border: 2px solid blueviolet;
-    
-}
 
-.jas{
-    font-size: 30px;
-    width: 100%;
-    height: 6vh;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    border: 2px solid blueviolet;
-    background-color: blueviolet;
 }
